@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemple map</title>
+    </head>
+    <body>
+        <p>Haga click en los objetos...</p>
+
+        <img src="https://www.w3schools.com/html/workplace.jpg" alt="Oficina" usemap="#oficina" width="400" height="379">
+        
+        <map name="oficina">
+            <area onclick="alert('Portátil');" shape="rect" coords="34,44,270,350" alt="Portátil">
+            <area onclick="alert('Teléfono');" shape="rect" coords="290,170,335,246" alt="Telefono">
+            <area onclick="alert('Café');" shape="circle" coords="335,300,45" alt="">
+        </map>
+
+        <script src="./script.js"></script>
+    </body>
+    </html>
